@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    color:black;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 0px green;
+    position: relative;
+}
+ul li{
+    list-style-type:circle;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.disc li{
+    list-style-type:disc;
+}
+.decimal li{
+    list-style-type: decimal;
+}
+.none li{
+    list-style-type: none;
+}
+.roman li{
+    list-style-type:lower-roman;
+}
+.roman1 li{
+    list-style-type: upper-roman;
+}
+.greek li{
+    list-style-type: lower-greek;
+}
+.latin li{
+    list-style-type: upper-latin;
+}
+.outside{
+    list-style-type: square;
+    list-style-position: outside;
+}
+.inside{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.link {
+    display: flex;
+    border: 1px solid lightgreen;
+    height: 120px;
+    background-color: lightgreen;
+}
+.link li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-top: 50px;
+    padding-right: 190px;
+
+}
+
+.link a{
+    color: white;
+    background-color:red;
+   padding: 16px 25px;
+    
+}
+.link a:hover{
+    color:black;
+    background-color: greenyellow;
+}
+.link a:visited{ 
+    color: springgreen;
+}
+.link a:link{
+    color: violet;
+}
+.link a:active{
+    color: burlywood;
+}
